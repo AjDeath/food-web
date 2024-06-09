@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+}
+/*----------------------------------------dropdown menu starting----------------------------------------------------*/
+
+.food{
+    display: flex;
+    align-items: center;
+    padding: 20 0;
+    justify-content: space-around;
+}
+.name{
+    text-transform: uppercase;
+    color: #fff;
+}
+.taste{
+    text-transform: lowercase;
+    color: red;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.list{
+    padding: 5 30;
+}
+
+.list:first-child{
+    text-decoration: underline red;
+}
+.link{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18;
+    text-transform: capitalize;
+}
+.signin{
+    background: none;
+    border: none;
+    text-transform: capitalize;
+    padding: 5 20;
+    color: #fff;
+
+}
+
+.signup{
+    text-transform: capitalize;
+    padding: 5 20;
+    background: orange;
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+}
+.signup:hover{
+    background: red;
+    cursor: pointer;
+}
+/*----------------------------------------dropdown menu ends----------------------------------------------------*/
+/*----------------------------------------landing page starting----------------------------------------------------*/
+.landing{
+    display: flex;
+    justify-content: space-around;
+    padding: 50 0 0 50;
+}
+.intro{
+    font-size: 100;
+    color: #fff;
+    line-height: 1.5;
+    margin: 30 0 0 0 ;
+    position: absolute;
+    z-index: 5;
+    background: none;
+}
+.introp{
+    line-height: 1.5;
+    color: #fff;
+    background: none;
+    margin-top: 350;
+    font-size: 20;
+}
+.enquire{
+    background: orange;
+    padding: 10 30;
+    border-radius: 20px;
+    text-transform: capitalize;
+    font-weight: 900;
+    margin: 30 0 0 0;
+    font-size: 20;
+    transition: 0.5s all ease-in-out;
+}
+.enquire:hover{
+    background: red;
+    cursor: pointer;
+}
+.landingimg{
+    width: 60%;
+    height: 100%;
+    transform:rotate(180deg);
+}
+/*----------------------------------------landing page ends----------------------------------------------------*/
+/*----------------------------------------dishes menu----------------------------------------------------*/
+.dishesbox{
+    display: flex;
+    justify-content: space-around;
+}
+.dish1{
+    max-width: 250px;
+    max-height: 250px;
+    border: 2px solid #fff;
+    align-items: center;
+    text-align: center;
+    background: #fff;
+    margin: 100 0 0 0;
+    padding: 10 10 20 10;
+    border-radius: 10px;
+}
+.beef{
+    width: 60%;
+    height: 70%;
+    margin-top: -90;
+    background: none;
+}
+.foodname{
+    background: none;
+    text-transform: capitalize;
+    font-size: 30;
+}
+.foodintro{
+    padding: 10 0 10 0;
+    background: none;
+    font-size: 15;
+
+}
+.foodprice{
+    background: none;
+    padding: 20 0 10 10;
+    text-align: left;
+    font-size: 25;
+}
+.ramen{
+    width: 110%;
+    height: 70%;
+    margin-top: -100;
+    margin-bottom: 15;
+    background: none;
+}
+
+.fish{
+    width: 70%;
+    height: 50%;
+    margin-top: -70;
+    margin-bottom: 35;
+    background: none;
+}
+/*----------------------------------------dishes menu ends----------------------------------------------------*/
+.aboutbox{
+    display: flex;
+}
+.aboutimgbox{
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 100 0 0 0;
+    grid-template-columns: 1fr 1fr;
+}
+.aboutimg1{
+    margin-left: -30px;
+}
+.aboutimg{
+    width: 90%;
+    height: 300px;
+    border-radius: 20px;
+    margin-top: -150px;
+    
+}
+.abouttext{
+    padding: 170 40 0 40;
+}
+.aboutus{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 100;
+    letter-spacing: 5px;
+    margin:-100 0 0 -450 ;
+    padding: 20 0;
+}
+.aboutintro{
+    color: #fff;
+    margin-left: -80px;
+    font-size: 25;
+}
+.postintro{
+    font-size: 40;
+    color: #fff;
+    text-align: center;
+    padding: 100 0 20 0;
+}
+.postbox{
+    display: flex;
+    margin-top: 50;
+  max-height: 288;
+  overflow: hidden;
+  
+    
+}
+.post1{
+    padding: 10;
+    overflow: hidden;
+    
+}
+.postimg{
+    width: 380px;
+    border: 5px ridge aqua;
+    height: 270;
+    
+}
+.posttext{
+    padding: 20 ;
+    transition: 1s;
+}
+.post1:hover .posttext{
+    margin: -170 0 0 0;
+
+}
+.posttext h1{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30;
+}
+.posttext p{
+    color: #fff;
+    font-size: 15;
+    text-wrap: wrap;
+}
