@@ -238,6 +238,7 @@
     display: flex;
     align-items: center;
     padding: 10 50;
+    margin: 100 0;
 }
 .reason1{
     text-transform: capitalize;
@@ -262,4 +263,164 @@ padding: 20 0 10 0;
     padding: 10;
     border-radius: 10px;
     font-weight: 900;
+}
+.contactbox{
+    box-shadow: 0px 0px 10px white,
+    0px 0px 20px white,
+    0px 0px 30px white;
+    margin: 40 200 20 200;
+    padding: 40 20 40 20;
+    border-radius: 50px;
+}
+.contact{
+    display: flex;
+    background: none;
+}
+.write{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 50;
+    background: none;
+    text-align: center;
+}
+.details{
+    padding: 10 20;
+    background: none;
+    margin: -10 0 10 0;
+
+}
+.first{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 25;
+    padding: 10 0;
+}
+
+.last{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10 0;
+    font-size: 25;
+}
+.mail{
+    color: #fff;
+    text-transform: capitalize;
+    padding: 10 50 10 10;
+    font-size: 25;
+}
+.inputbox{
+    padding: 5 10 5 10;
+    text-transform: uppercase;
+    font-size: 15;
+    margin: 10 0 20 0;
+    color: #fff;
+}
+textarea{
+    margin: 10 0 10 0;
+    color: #fff;
+    padding: 20;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    font-size: 20;
+}
+.sendbox{
+    align-items: center;
+    text-align: center;
+}
+.send{
+    color: #fff;
+    font-size: 25;
+    letter-spacing: 5;
+    text-transform: capitalize;
+    padding: 10 220;
+    border: none;
+    background: crimson;
+    border-radius: 10px;
+    text-align: center;
+}
+footer{
+    border: 10px ridge #fff;
+    margin: 50 0 0 0;
+}
+.one{
+    width: 15%;
+    border-radius: 50px;
+    padding: 20;
+}
+.slogan{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 40;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40 100 0 140;
+    float: left;
+}
+.contactinfo{
+    display: flex;
+    justify-content: space-between;
+    padding: 40 100;
+    gap: 100px;
+}
+address{
+    color: #fff;
+    font-size: 25;
+    font-weight: 900;
+}
+.add{
+    display: flex;
+    align-items: center;
+}
+.add i{
+    background: none;
+    color: #fff;
+        font-size: 40;
+        padding: 0 40;
+}
+.call{
+    display: flex;
+    align-items: center;
+}
+.call i{
+    color: #fff;
+    background: none;
+    font-size: 40;
+    padding: 0 40;
+}
+.contactno{
+    color: #fff;
+    font-size: 25;
+    font-weight: 900;
+}
+.mail{
+    display: flex;
+    align-items: center;
+}
+.mail i{
+    color: #fff;
+    background: none;
+    font-size: 40;
+    padding: 0 30;
+}
+.maili{
+    color: white;
+    font-size: 25;
+    text-decoration: none;
+    text-transform: lowercase
+}
+.company{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 30;
+    padding: 10 0;
+}
+.companyslogan{
+    color: #fff;
+    font-size: 20;
+    line-height: 1.2;
+}
+.follow i{
+    color: #fff;
+    font-size: 30;
+    padding: 15 10;
 }
