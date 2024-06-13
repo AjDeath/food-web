@@ -184,6 +184,7 @@
     letter-spacing: 5px;
     margin:-100 0 0 -450 ;
     padding: 20 0;
+    background: none;
 }
 .aboutintro{
     color: #fff;
@@ -423,4 +424,266 @@ address{
     color: #fff;
     font-size: 30;
     padding: 15 10;
+}
+@media screen and (min-device-width: 1150px) and (max-device-width: 1400px){
+    textarea{
+        width: 400px;
+    }
+    .sendbox{
+        background: none;
+    }
+    .send{
+        padding: 10 80;
+    }
+    .reason1{
+        overflow: scroll;
+        margin: 10 10;
+    }
+    .postbox{
+        padding: 10 10;
+    }
+    .postimg {
+        width: 300;
+    }
+    .one{
+padding: 10;
+
+    }
+}
+@media screen and (min-device-width: 1000px) and (max-device-width: 1150px){
+    .dishesbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10 200;
+    }
+    .intro{
+        font-size: 80;
+    }
+    .reason1{
+        overflow: scroll;
+        margin: 10 10;
+    }
+    .postimg {
+        width: 260;
+    }
+    textarea{
+        width: 250;
+    }
+    .send{
+        padding: 10 20;
+    }
+    .one{
+padding: 10 50 10 50 ;
+border-radius: 10px;
+
+    }
+    footer{
+        text-align: center;
+        align-items: center;
+    }
+    .contactinfo{
+        flex-direction: column;padding: 40 235px;
+        gap: 38px;
+    }
+    .info{
+        text-align: center;
+        
+    }
+    .slogan{
+        float: none;
+        font-size: 60;
+    }
+}
+@media screen and (min-device-width: 800px) and (max-device-width: 1000px){
+    .dishesbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10 100;
+    }
+    .intro{
+        font-size: 60;
+    }
+    .introp {
+        margin-top: 240;
+    }
+    .aboutus{
+        margin: -104px 0 0 -314px;
+    
+    }
+    .aboutimg1{
+        height: 350;
+    }
+    .reason1{
+        overflow: scroll;
+        margin: 10 10;
+    }
+    .postimg {
+        width: 200;
+    }
+    textarea{
+        width: 200;
+    }
+    .send{
+        padding: 10 10;
+        font-size: 15;
+    }
+    .one{
+padding: 10 50 10 50 ;
+border-radius: 10px;
+
+    }
+    footer{
+        text-align: center;
+        align-items: center;
+    }
+    .contactbox{
+        margin: 40 100 20 100px;
+    }
+    .contactinfo{
+        flex-direction: column;
+        padding: 40 135px;
+        gap: 38px;
+    }
+    .info{
+        text-align: center;
+        
+    }
+    .slogan{
+        float: none;
+        font-size: 60;
+    }
+}
+@media screen and (min-device-width: 600px) and (max-device-width: 800px){
+    .dishesbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10 50;
+    }
+    .intro{
+        font-size: 40;
+    }
+    .introp {
+        margin-top: 160;
+    }
+    .aboutus{
+        margin: -104px 0 0 0px;
+        font-size: 50;
+    
+    }
+    .abouttext {
+padding: 135px 0px 0 0px;
+}
+    .aboutimg1{
+        height: 250;
+    }
+    .reason1{
+        overflow: scroll;
+        margin: 10 10;
+    }
+    .postbox{
+        flex-direction: column;
+        max-height: 806;
+    }
+    textarea{
+        width: 200;
+    }
+    .send{
+        padding: 10 10;
+        font-size: 15;
+    }
+    .one{
+padding: 10 50 10 50 ;
+border-radius: 10px;
+
+    }
+    .reasonbox{
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+        align-items: center;
+    }
+    .contactbox{
+        margin: 40 20 20 20px;
+    }
+    .contactinfo{
+        flex-direction: column;
+        padding: 40 135px;
+        gap: 38px;
+    }
+    .info{
+        text-align: center;
+        
+    }
+    .slogan{
+        float: none;
+        font-size: 60;
+    }
+}
+@media screen and (min-device-width: 400px) and (max-device-width: 600px){
+    .dishesbox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10 50;
+    }
+    .intro{
+        font-size: 40;
+    }
+    .introp {
+        margin-top: 160;
+    }
+    .aboutus{
+        margin: -104px 0 0 0px;
+        font-size: 50;
+    
+    }
+    .abouttext {
+padding: 135px 0px 0 0px;
+}
+    .aboutimg1{
+        height: 250;
+    }
+    .reason1{
+        overflow: scroll;
+        margin: 10 10;
+    }
+    .postbox{
+        flex-direction: column;
+        max-height: 806;
+    }
+    textarea{
+        width: 200;
+    }
+    .send{
+        padding: 10 10;
+        font-size: 15;
+    }
+    .one{
+padding: 10 50 10 50 ;
+border-radius: 10px;
+
+    }
+    .reasonbox{
+        flex-direction: column;
+    }
+    footer{
+        text-align: center;
+        align-items: center;
+    }
+    .contactbox{
+        margin: 40 20 20 20px;
+    }
+    .contactinfo{
+        flex-direction: column;
+        padding: 40 135px;
+        gap: 38px;
+    }
+    .info{
+        text-align: center;
+        
+    }
+    .slogan{
+        float: none;
+        font-size: 60;
+    }
 }
